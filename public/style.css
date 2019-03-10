@@ -1,0 +1,83 @@
+#map {
+       height: 80%;
+       top: 10%;
+       margin: 2%;
+       border:4px solid #2E8B57;
+     }
+     /* Optional: Makes the sample page fill the window. */
+
+html, body {
+      background-image: url("https://www.canadapost.ca/assets/img/blogs/business/shipping/2017/mc4738-banner.jpg");
+       height: 100%;
+       right:70%;
+       margin: 0;
+       padding: 0;
+       background-position: 175% 170%;
+     }
+
+#gtin{
+
+  margin: 10px;
+  display: block;
+    margin-left: 40%;
+    margin-right: 41%;
+    width: 20%;
+       border: 3px solid gray;
+   padding: 10px;
+
+}
+
+#serial{
+  margin: 10px;
+  display: block;
+    margin-left: 40%;
+    margin-right: 41%;
+    width: 20%;
+       border: 3px solid gray;
+   padding: 10px;
+
+}
+
+#lot{
+  margin: 10px;
+  display: block;
+    margin-left: 40%;
+    margin-right: 41%;
+    width: 20%;
+       border: 3px solid gray;
+   padding: 10px;
+
+
+}
+
+#expiry{
+  margin: 10px;
+  display: block;
+    margin-left: 40%;
+    margin-right: 41%;
+    width: 20%;
+       border: 3px solid gray;
+   padding: 10px;
+
+ }
+
+ #submiting{
+   font-family: "Arial";
+   font-size: 25;
+   border-radius: 25px;
+   border: 3px solid #2E8B57;
+   padding: 20px;
+   width: 200px;
+   height: 150px;
+   font-size:25;
+   position:absolute;
+   top:38%;
+   right:46%;
+   height: 70px;
+   width: 110px;
+ }
+
+ #h1{
+  color: #00008B
+   text-align: center;
+ }

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PackTrak</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <h1 align="center" style= "font-family:Arial, Helvetica, sans-serif" >Please Enter Your Package Information:</h1>
+
+
+<form id="form" onsubmit="return false;">
+    <input placeholder="Global Trade Item Number" type="text" id="gtin" />
+    <input placeholder="Serial Number" type="text" id="serial" />
+    <input placeholder="Lot Number" type="text" id="lot" />
+    <input placeholder="Expiry Date" type="text" id="expiry" />
+
+    <input id = "submiting" value="Track now!" type="submit" onclick="getHistory();" />
+
+
+</form>
+
+
+<div id="map"></div>
+
+<script>
+     var map;
+     function initMap() {
+       map = new google.maps.Map(document.getElementById('map'), {
+         center: {lat: 0, lng: 0},
+         zoom: 2
+       });
+     }
+   </script>
+
+
+</body>
+
+
+
+<script type="text/javascript" src="javascripts/myjavascript.js"> </script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+
+<script async defer
+   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEa159wOdnnj3PLctmXGHymFL4tGFpmyM&callback=initMap">
+   </script>
+
+</html>
